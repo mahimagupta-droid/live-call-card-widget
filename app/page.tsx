@@ -1,9 +1,9 @@
-import { LiveCallCard } from '@/components/live-call-card'
+import { MutedFeatureCards } from '@/components/muted-feature-cards'
 
 export default function Page() {
   return (
     <main className="preview-page">
-      <LiveCallCard />
+      <MutedFeatureCards />
     </main>
   )
 }
