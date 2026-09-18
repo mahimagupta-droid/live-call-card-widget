@@ -1,9 +1,9 @@
-import { ParallelDialingPanel } from '@/components/parallel-dialing-panel'
+import { LiveCallWorkspace } from '@/components/live-call-workspace'
 
 export default function Page() {
   return (
     <main className="preview-page">
-      <ParallelDialingPanel />
+      <LiveCallWorkspace />
     </main>
   )
 }
